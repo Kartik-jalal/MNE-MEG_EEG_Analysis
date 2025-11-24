@@ -1,0 +1,4 @@
+jupyter
+pip
+
+mne[full] # uses PyQt6
