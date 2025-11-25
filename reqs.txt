@@ -1,4 +1,5 @@
 jupyter
 pip
+setuptools 
 
 mne[full] # uses PyQt6
