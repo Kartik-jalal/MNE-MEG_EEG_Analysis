@@ -21,8 +21,8 @@ After the setup is complete, if you have a **GPU** and would like **MNE-Python**
 # 1. Activate the venv
 source .venv/bin/activate
 
-# 2. Install Cupy (Please have a look here: https://docs.cupy.dev/en/stable/install.html)
-pip install cupy
+# 2. Install Cupy (Note: This install is for CUDA version 13, if you have different version of cuda please have a look here: https://docs.cupy.dev/en/stable/install.html)
+pip install cupy-cuda13x
 
 # 3. Permanently enable CUDA in MNE
 mne.utils.set_config('MNE_USE_CUDA', 'true')
@@ -36,6 +36,10 @@ pytest mne/tests/test_filter.py -k cuda
 # Update Logs
 
 ## 25th Of Nov, 2025
+
+> ###  09:30 pm (IST)
+> #### Updates:
+>   + Updated the [README.md](./README.md) file *cupy* install instructions.
 
 > ###  09:20 pm (IST)
 > #### Updates:
