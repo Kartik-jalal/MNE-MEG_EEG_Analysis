@@ -25,17 +25,32 @@ source .venv/bin/activate
 pip install cupy-cuda13x
 
 # 3. Permanently enable CUDA in MNE
-mne.utils.set_config('MNE_USE_CUDA', 'true')
-
-# 4. Test MNE CUDA support by running the associated test
-pytest mne/tests/test_filter.py -k cuda
+python3 -c "import mne; mne.utils.set_config('MNE_USE_CUDA', 'true')"
 ```
 
-> _**Note:** If the tests pass, then **CUDA** should work in **MNE**. You can use CUDA in methods that state that they allow passing `'n_jobs='cuda'`, such as `mne.io.Raw.filter()` and `mne.io.Raw.resample()`, and they should run faster than the CPU-based multithreading such as `n_jobs=8`._
+> _**Note:** If the **cupy** installs all correctly, then **CUDA** should work in **MNE**. You can use CUDA in methods that state that they allow passing `'n_jobs='cuda'`, such as `mne.io.Raw.filter()` and `mne.io.Raw.resample()`, and they should run faster than the CPU-based multithreading such as `n_jobs=8`._
 
 # Update Logs
 
 ## 25th Of Nov, 2025
+
+> ###  10:41 pm (IST)
+> #### Updates:
+>   + Updated the [README.md](./README.md) file enable CUDA in MNE instructions.
+
+
+> ###  09:20 pm (IST)
+> #### Updates:
+>   + Updated the [reqs.txt](./reqs.txt), with a new python lib. <span style="color: red;">Please update your python venv, the easist way for the moment would be:</span>
+> ```bash
+> # 1. Activate the venv
+> source .venv/bin/activate
+>
+> # 2. Install the new/updated dependencies
+> pip install -r reqs.txt
+> ```
+>   + Updated the [README.md](./README.md) file enable CUDA in MNE instructions.
+
 
 > ###  09:30 pm (IST)
 > #### Updates:
