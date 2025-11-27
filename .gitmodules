@@ -1,0 +1,3 @@
+[submodule "richard_höchenbergers_pybrain_mne"]
+	path = richard_höchenbergers_pybrain_mne
+	url = https://github.com/hoechenberger/pybrain_mne.git
