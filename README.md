@@ -78,7 +78,24 @@ Ecosystem (optional)
 └☐ unavailable          mne-bids, mne-nirs, mne-features, mne-connectivity, mne-icalabel, mne-bids-pipeline
 ```
 
+# Chapters
+
+## [chapter_1.ipynb](./chapter_1.ipynb)
+In this chapter we look at how to retrieve, read, visualise, extract important details, crop, filter and compute psd on the raw data using *mne*.
+
+
 # Update Logs
+
+## 29th Of Nov, 2025
+
+> ###  07:46 pm (IST)
+> #### New:
+>   + Added [chapter_1.ipynb](./chapter_1.ipynb)
+>   + Added Richard's provided github repo containing his workshop notebooks for quick references.
+>
+> #### Updates:
+>   + Updated the [README.md](./README.md).
+>   + Updated [.gitignore](./.gitignore).
 
 ## 25th Of Nov, 2025
 
