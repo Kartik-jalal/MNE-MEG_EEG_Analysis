@@ -3,3 +3,6 @@ pip
 setuptools 
 
 mne[full] # uses PyQt6
+mne-bids
+nibabel
+pybv

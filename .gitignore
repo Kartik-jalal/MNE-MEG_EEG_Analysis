@@ -1,5 +1,5 @@
 MNE-sample-data/
-output_data
+out_data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

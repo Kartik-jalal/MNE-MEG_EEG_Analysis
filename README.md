@@ -78,19 +78,48 @@ Ecosystem (optional)
 └☐ unavailable          mne-bids, mne-nirs, mne-features, mne-connectivity, mne-icalabel, mne-bids-pipeline
 ```
 
+
+# [Richard Höchenberger's Pybrain MNE submodule](./richard_höchenbergers_pybrain_mne/)
+For reference, I have also added [Richard Höchenberger's Pybrain MNE git repo](https://github.com/hoechenberger/pybrain_mne/) as a submodule in this repo and to pull the submodule after cloning this repo, please do:
+```bash
+git submodule update --init
+```
+
 # Chapters
 
-## [chapter_1.ipynb](./chapter_1.ipynb)
+## [Chapter 1](./chapter_1.ipynb)
 In this chapter we look at how to retrieve, read, visualise, extract important details, crop, filter and compute psd on the raw data using *mne*.
+
+## [Chapter 2](./chapter_2.ipynb)
+In this chapter we will be working with [**Brain Imaging Datastructure (BIDS)**](https://bids-specification.readthedocs.io/en/stable/), it was built to organise *MRI* datasets and make them manageable and recenlty it has been amended for *EEG/MEG* datastorage as well.
 
 
 # Update Logs
+
+## 09th of Dec, 2025
+
+> ### 06:40 pm (IST)
+> #### New:
+>   + Added [Chapter 2](./chapter_2.ipynb) jupyter notebook.
+>
+> #### Updates:
+>   + Updated the [reqs.txt](./reqs.txt), with a new python lib. <code style="color : yellow">Please update your python venv, the easist way for the moment would be:</code>
+>> ```bash
+>> # 1. Activate the venv
+>> source .venv/bin/activate
+>>
+>> # 2. Install the new/updated dependencies
+>> pip install -r reqs.txt
+>> ```
+>   + Updated the [README.md](./README.md).
+>   + Updated [.gitignore](./.gitignore).
+>   + Updated [Chapter 1](./chapter_1.ipynb) jupyter notebook.
 
 ## 29th Of Nov, 2025
 
 > ###  07:46 pm (IST)
 > #### New:
->   + Added [chapter_1.ipynb](./chapter_1.ipynb)
+>   + Added [Chapter 1](./chapter_1.ipynb) jupyter notebook.
 >   + Added Richard's provided github repo containing his workshop notebooks for quick references.
 >
 > #### Updates:
@@ -110,13 +139,13 @@ In this chapter we look at how to retrieve, read, visualise, extract important d
 > ###  09:20 pm (IST)
 > #### Updates:
 >   + Updated the [reqs.txt](./reqs.txt), with a new python lib. <code style="color : yellow">Please update your python venv, the easist way for the moment would be:</code>
-> ```bash
-> # 1. Activate the venv
-> source .venv/bin/activate
->
-> # 2. Install the new/updated dependencies
-> pip install -r reqs.txt
-> ```
+>> ```bash
+>> # 1. Activate the venv
+>> source .venv/bin/activate
+>>
+>> # 2. Install the new/updated dependencies
+>> pip install -r reqs.txt
+>> ```
 >   + Updated the [README.md](./README.md) file enable CUDA in MNE instructions.
 
 
@@ -127,13 +156,13 @@ In this chapter we look at how to retrieve, read, visualise, extract important d
 > ###  09:20 pm (IST)
 > #### Updates:
 >   + Updated the [reqs.txt](./reqs.txt), with a new python lib. <code style="color: yellow">Please update your python venv, the easist way for the moment would be:</code>
-> ```bash
-> # 1. Activate the venv
-> source .venv/bin/activate
->
-> # 2. Install the new/updated dependencies
-> pip install -r reqs.txt
-> ```
+>> ```bash
+>> # 1. Activate the venv
+>> source .venv/bin/activate
+>>
+>> # 2. Install the new/updated dependencies
+>> pip install -r reqs.txt
+>> ```
 >   + Updated the [README.md](./README.md) file.
 
 
