@@ -93,8 +93,18 @@ In this chapter we look at how to retrieve, read, visualise, extract important d
 ## [Chapter 2](./chapter_2.ipynb)
 In this chapter we will be working with [**Brain Imaging Datastructure (BIDS)**](https://bids-specification.readthedocs.io/en/stable/), it was built to organise *MRI* datasets and make them manageable and recenlty it has been amended for *EEG/MEG* datastorage as well.
 
+## [Chapter 3](./chapter_3.ipynb)
+So far we have only worked for continuous data, but when dealing with **evoked design\*** we have to create epochs meaning we have to slice the continuous data into small time segments (1-2 sec long) to analyse them. <br />
+Therefore, in this chapter we will focus on creating epochs to avarage these epochs to generate evoked responses (ERP/ERF).
 
 # Update Logs
+
+## 10th of Dec, 2025
+
+> ### 09:03 pm (IST)
+> #### New:
+>   + Added [Chapter 3](./chapter_3.ipynb) jupyter notebook.
+
 
 ## 09th of Dec, 2025
 
