@@ -94,10 +94,22 @@ In this chapter we look at how to retrieve, read, visualise, extract important d
 In this chapter we will be working with [**Brain Imaging Datastructure (BIDS)**](https://bids-specification.readthedocs.io/en/stable/), it was built to organise *MRI* datasets and make them manageable and recenlty it has been amended for *EEG/MEG* datastorage as well.
 
 ## [Chapter 3](./chapter_3.ipynb)
-So far we have only worked for continuous data, but when dealing with **evoked design\*** we have to create epochs meaning we have to slice the continuous data into small time segments (1-2 sec long) to analyse them. <br />
-Therefore, in this chapter we will focus on creating epochs to avarage these epochs to generate evoked responses (ERP/ERF).
+In this chapter we will focus on creating epochs and avaraging these epochs to generate evoked responses (ERP/ERF).
+
+## [Chapter 4](./chapter_4.ipynb)
+In this chapter we will look into how to remove ECG, EOG artefacts from our epoched data using **'amplitude based critia'**, **'SSP'** and **'ICA'**.
 
 # Update Logs
+
+## 02th of Jan, 2025
+
+> ### 12:53 am (IST)
+> #### New:
+>   + Added [Chapter 4](./chapter_4.ipynb) jupyter notebook.
+>   + Added [imgs](./imgs) dir - which contains images used in the notebooks.
+>
+> #### Updates:
+>   + Updated [Chapter 1](./chapter_1.ipynb), [Chapter 2](./chapter_2.ipynb) and [Chapter 3](./chapter_3.ipynb) jupter notebooks - change the `matplotlib` backend to `QtAgg` from `Qt5Agg`, and also put `import mne_bids` in the next cell of *Libraries & Config* section to fix the *Qt* conflict.
 
 ## 10th of Dec, 2025
 
