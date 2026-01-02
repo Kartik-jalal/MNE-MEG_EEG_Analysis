@@ -1,5 +1,8 @@
 # MNE-M/EEG_Analysis
-This Repo is for the work-through of M/EEG analysis with MNE Python following [Richard Höchenberger's workshop](https://www.youtube.com/watch?v=t-twhNqgfSY&t=423s).
+This repository documents my work following the M/EEG analysis with MNE Python tutorial from [Richard Höchenberger's Pybrain workshop](https://www.youtube.com/watch?v=t-twhNqgfSY&t=423s).
+<br />
+<br />
+The original workshop code is available in this [Github repo](https://github.com/hoechenberger/pybrain_mne/), and the datasets can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1uxBHfSZd8r7JpFP-wnFBv_goBMAin6EJ).
 
 
 # Setup
@@ -99,7 +102,22 @@ In this chapter we will focus on creating epochs and avaraging these epochs to g
 ## [Chapter 4](./chapter_4.ipynb)
 In this chapter we will look into how to remove ECG, EOG artefacts from our epoched data using **'amplitude based critia'**, **'SSP'** and **'ICA'**.
 
+## [Chapter 5](./chapter_5.ipynb)
+This chapter covers loading pre-processed EEGLAB data and applying a standard montage to define sensor locations.
+
 # Update Logs
+
+
+## 03th of Jan, 2025
+
+> ### 10:41 pm (IST)
+> #### New:
+>   + Added [Chapter 5](./chapter_5.ipynb) jupyter notebook.
+>
+> #### Updates:
+>   + Updated the [README.md](./README.md).
+>   + Updated [.gitignore](./.gitignore).
+
 
 ## 02th of Jan, 2025
 
