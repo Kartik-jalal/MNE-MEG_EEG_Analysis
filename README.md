@@ -105,8 +105,20 @@ In this chapter we will look into how to remove ECG, EOG artefacts from our epoc
 ## [Chapter 5](./chapter_5.ipynb)
 This chapter covers loading pre-processed EEGLAB data and applying a standard montage to define sensor locations.
 
+## [Chapter 6](./chapter_6.ipynb)
+This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Estimator) using Machine learning techniques with the help of `mne.decodding` and **Scikit-Learn**.
+
 # Update Logs
 
+## 09th of Jan, 2025
+
+> ### 10:15 pm (IST)
+> #### New:
+>   + Added [Chapter 6](./chapter_6.ipynb) jupyter notebook.
+>   + Added [Temporal Decoding time course plot](./imgs/temporal_decoding_res.png) used in [Chapter 6](./chapter_6.ipynb) jupyter notebook.
+>
+> #### Updates:
+>   + Updated the [README.md](./README.md).
 
 ## 03th of Jan, 2025
 
