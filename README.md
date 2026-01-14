@@ -106,9 +106,23 @@ In this chapter we will look into how to remove ECG, EOG artefacts from our epoc
 This chapter covers loading pre-processed EEGLAB data and applying a standard montage to define sensor locations.
 
 ## [Chapter 6](./chapter_6.ipynb)
-This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Estimator) using Machine learning techniques with the help of `mne.decodding` and **Scikit-Learn**.
+This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Estimator) using Machine learning techniques with the help of `mne.decoding` and **Scikit-Learn**.
+
+## [Chapter 7](./chapter_7.ipynb)
+This chapter dives into **Time-Frequency Analysis**, which is essential for understanding "brain rhythms" (oscillations) that standard ERPs (Evoked Response Potentials) often miss.
 
 # Update Logs
+
+## 15th of Jan, 2025
+
+> ### 12:26 am (IST)
+> #### New:
+>   + Added [Chapter 7](./chapter_7.ipynb) jupyter notebook.
+>   + Added [Wavelet Convolution GIF](./imgs/wavelet_convolution.gif) used in [Chapter 7](./chapter_7.ipynb) jupyter notebook.
+>
+> #### Updates:
+>   + Updated the [README.md](./README.md).
+
 
 ## 09th of Jan, 2025
 
@@ -119,6 +133,7 @@ This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Esti
 >
 > #### Updates:
 >   + Updated the [README.md](./README.md).
+
 
 ## 03th of Jan, 2025
 
@@ -140,6 +155,7 @@ This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Esti
 >
 > #### Updates:
 >   + Updated [Chapter 1](./chapter_1.ipynb), [Chapter 2](./chapter_2.ipynb) and [Chapter 3](./chapter_3.ipynb) jupter notebooks - change the `matplotlib` backend to `QtAgg` from `Qt5Agg`, and also put `import mne_bids` in the next cell of *Libraries & Config* section to fix the *Qt* conflict.
+
 
 ## 10th of Dec, 2025
 
@@ -167,6 +183,7 @@ This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Esti
 >   + Updated [.gitignore](./.gitignore).
 >   + Updated [Chapter 1](./chapter_1.ipynb) jupyter notebook.
 
+
 ## 29th Of Nov, 2025
 
 > ###  07:46 pm (IST)
@@ -177,6 +194,7 @@ This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Esti
 > #### Updates:
 >   + Updated the [README.md](./README.md).
 >   + Updated [.gitignore](./.gitignore).
+
 
 ## 25th Of Nov, 2025
 
