@@ -111,7 +111,22 @@ This chapter covers Spatio-Temporal decoding and Temporal decoding (Sliding Esti
 ## [Chapter 7](./chapter_7.ipynb)
 This chapter dives into **Time-Frequency Analysis**, which is essential for understanding "brain rhythms" (oscillations) that standard ERPs (Evoked Response Potentials) often miss.
 
+## [Chapter 8](./chapter_8.ipynb)
+This chapter dives into **source estimation/reconstruction/localisation**, we learn how to map sensor data (2D) back to the brain's cortex (3D) by combining the electrical recordings with a physical model of the head (MRI + BEM), solving the **"Inverse Problem"** to pinpoint the anatomical origin of the neural activity.
+
 # Update Logs
+
+## 06th of Feb, 2026
+
+> ### 07:03 pm (IST)
+> #### New:
+>   + Added [Chapter 8](./chapter_8.ipynb) jupyter notebook.
+>   + Added [MNE Python source estiamte flow diagram](./imgs/mne-python_flow_diagram.svg) used in [Chapter 8](./chapter_8.ipynb) jupyter notebook.
+>
+> #### Updates:
+>   + Updated the [README.md](./README.md).
+
+
 
 ## 15th of Jan, 2025
 
